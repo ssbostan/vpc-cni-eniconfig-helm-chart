@@ -1,0 +1,14 @@
+{{- range .Values.configs }}
+---
+apiVersion: crd.k8s.amazonaws.com/v1alpha1
+kind: ENIConfig
+metadata:
+  name: {{ .name }}
+  namespace: {{ $.Release.Namespace }}
+spec:
+  subnet: {{ .subnetID }}
+  securityGroups:
+  {{- with .securityGroups }}
+    {{- . | toYaml | nindent 4 -}}
+  {{- end }}
+{{- end }}

@@ -1,0 +1,22 @@
+# Ignore version control directories
+.git/
+.gitignore
+
+# Helm-related files
+.helmignore
+chart.lock
+
+# Editor backups and temporary files
+*.swp
+*.bak
+*.tmp
+*.log
+
+# Build artifacts
+*.tgz
+dist/
+bin/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

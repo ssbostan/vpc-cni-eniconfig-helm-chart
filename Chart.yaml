@@ -1,0 +1,9 @@
+apiVersion: v2
+name: vpc-cni-eniconfig
+description: A Helm Chart to create ENIConfigs for AWS VPC CNI.
+type: application
+version: 0.0.1
+appVersion: 0.0.1
+maintainers:
+  - name: Saeid Bostandoust
+    email: ssbostan@yahoo.com

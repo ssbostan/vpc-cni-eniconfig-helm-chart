@@ -1,0 +1,13 @@
+configs: []
+  # - name: us-east-1a
+  #   subnetID: subnet-01c5c75adac99bd7f
+  #   securityGroups:
+  #     - sg-0434119d2c8b49857
+  # - name: us-east-1b
+  #   subnetID: subnet-01c5c75adac99bd7f
+  #   securityGroups:
+  #     - sg-0434119d2c8b49857
+  # - name: us-east-1c
+  #   subnetID: subnet-01c5c75adac99bd7f
+  #   securityGroups:
+  #     - sg-0434119d2c8b49857
